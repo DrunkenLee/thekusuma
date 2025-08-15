@@ -7,7 +7,9 @@ import { styWrapper } from '@components/GenerateLink/styles';
 function GenerateLinkWrapper() {
   return (
     <MainLayout>
-      <div css={styWrapper}>{<GenerateLink />}</div>
+      <div css={styWrapper}>
+        <GenerateLink />
+      </div>
     </MainLayout>
   );
 }
